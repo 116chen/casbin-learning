@@ -1,8 +1,8 @@
 package main
 
 import (
+	"casbin-learning/lib"
 	"github.com/gin-gonic/gin"
-	"permissions-learning/lib"
 )
 
 // 1. 项目启动后删除casbin_rule表中数据，权限系统依然能够运行，由此判断casbin_rule的数据会被载入内存中，并没实时查表

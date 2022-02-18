@@ -1,8 +1,8 @@
 package lib
 
 import (
+	"casbin-learning/model"
 	"log"
-	"permissions-learning/model"
 )
 
 type RoleRel struct {

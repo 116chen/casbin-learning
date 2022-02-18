@@ -1,4 +1,4 @@
-module permissions-learning
+module casbin-learning
 
 go 1.18
 
